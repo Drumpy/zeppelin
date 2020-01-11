@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="Las mejores opciones de viajes">
+	<meta name="keywords" content="viajes, pasajes, hoteles, seguro de viaje">
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,800&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/6fa8df5f36.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="contact.css">
+	<link rel="stylesheet" href="style.css">
+	<title>zeppelin - Tu mejor opción a la hora de viajar</title>
+</head>
+
+<body>
+
+	<div id="app" class="main-wrap">
+
+		<header>
+
+			<div class="container">
+				<nav class="navbar">
+					<div class="logo">
+						<a href="#"><img src="images/logo.png" alt="logo"></a>
+					</div>
+					<ul>
+						<li><a href="#destacados" aria-label="Destacados">Destacados</a></li>
+						<li><a href="#buscados" aria-label="Más buscados">Más buscados</a></li>
+						<li><a href="#beneficios" aria-label="Beneficios">Beneficios</a></li>
+						<li><a href="#contacto" class="btn btn-2" aria-label="Contacto">Contacto</a></li>
+					</ul>
+				</nav>
+			</div>
+				
+		</header>
+
+		<section class="home flex column f-center txt-center">
+
+			<div class="home-content">
+
+				<h1 class="animated fadeInDown">El pasaje al destino que soñaste, <span>el hotel ideal y el seguro de viaje</span> que te merecés.</h1>
+				<p class="animated fadeInLeft ">Compará entre todas las aerolíneas y más de 200.000 hoteles en todo el mundo <span>para acceder a los precios más convenientes.</span></p>
+
+				<div class="buscador">
+					<form action="#">
+						<input type="text" name="buscador" placeholder="Busca tu destino... Ej.: París" aria-label="Ingresa el destino">
+					</form>
+					<button role="button" aria-label="buscador">
+						<i class="fas fa-2x fa-search"></i>
+					</button>
+				</div>
+
+				<div class="arrow">
+					<a href="#destacados" aria-label="Siguiente sección">
+						<i class="animated infinite bounce fas fa-angle-double-down fa-2x"></i>
+					</a>
+				</div>
+
+			</div>
+
+		</section>
+
+		<main role="main">
+			
+			<section id="destacados" class="container">
+				
+				<article class="txt-center">
+
+					<h2>Destinos Destacados</h2>
+
+					<div class="destacados">
+
+						<div class="destacado1 hvr-float">
+
+							<h3>París</h3>
+							<p>París, la capital de Francia, es una importante ciudad europea y un centro mundial del arte,
+							la moda, la gastronomía y la cultura. Su paisaje urbano del siglo XIX está entrecruzado por
+							amplios bulevares y el río Sena. Aparte de estos hitos,como la Torre Eiffel y…</p>
+							<a href="#" class="btn btn-1" aria-label="1209 dolares">U$S 1209 dol.</a>
+
+						</div>
+
+						<div class="destacado2 hvr-float">
+
+							<h3>New York</h3>
+							<p>Nueva York incluye 5 distritos que se ubican donde el río Hudson desemboca en el océano
+							Atlántico. En su centro se encuentra Manhattan, un distrito densamente poblado que se
+							encuentra entre los principales centros comerciales, financieros y culturales del mundo…</p>
+							<a href="#" class="btn btn-1" aria-label="980 dolares">U$S 980 dol.</a>
+
+						</div>
+
+						<div class="destacado3 hvr-float">
+
+							<h3>Hong Kong</h3>
+							<p>Hong Kong es un territorio autónomo y una antigua colonia británica en el sureste de China.
+								Su centro urbano activo y densamente poblado es un importante puerto y un centro
+								financiero global con un paisaje lleno de rascacielos…</p>
+							<a href="#" class="btn btn-1" aria-label="1440 dolares">U$S 1440 dol.</a>
+
+						</div>
+						
+					</div>
+
+				</article>
+				
+			</section>
+
+			<section id="buscados" class="container">
+
+				<article>
+
+					<h2 class="txt-center">Destinos Más Buscados</h2>
+
+					<div class="buscados">
+								
+								<card></card>
+							
+					</div>
+
+				</article>
+
+			</section>
+
+			<section id="beneficios">
+
+				<article class="txt-center">
+
+					<h2>Nuestros Beneficios</h2>
+					
+					<div class="beneficios container flex">
+
+						<div class="beneficio-wrap">
+							<i class="fas fa-hand-holding-usd fa-5x"></i>
+							<h4>Te garantizamos el mejor precio, ¡siempre!</h4>
+							<p>Compará entre todas las aerolíneas y más de 200.000 hoteles en todo el mundo
+							para acceder a los precios más convenientes.</p>
+						</div>
+						<div class="beneficio-wrap">
+							<i class="fas fa-credit-card fa-5x"></i>
+							<h4>Pagar es más fácil y seguro</h4>
+							<p>Podés hacerlo con tarjeta de crédito, transferencia bancaria o en redes de cobranza.</p>
+						</div>
+						<div class="beneficio-wrap">
+							<i class="fas fa-handshake fa-5x"></i>
+							<h4>Con 50 años de experiencia en viajes</h4>
+							<p>Somos parte de 5M TravelGroup, un grupo con medio siglo en la industria de viajes y tecnología aplicada al turismo.</p>
+						</div>
+								
+					</div>
+
+				</article>
+
+			</section>
+			
+			<section id="contacto" class="container">
+
+				<article>
+
+					<h2 class="txt-center">Contáctenos</h2>
+
+						<form class="contact100-form validate-form">
+							<div class="wrap-input100 validate-input" data-validate="Name is required">
+								<span class="label-input100">Nombre:</span>
+								<input class="input100" type="text" name="name" placeholder="Ingrese su nombre completo" aria-label="Ingrese su nombre">
+								<span class="focus-input100"></span>
+							</div>
+			
+							<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+								<span class="label-input100">Email:</span>
+								<input class="input100" type="text" name="email" placeholder="Ingrese su mail" aria-label="Ingrese su mail">
+								<span class="focus-input100"></span>
+							</div>
+			
+							<div class="wrap-input100 validate-input" data-validate="Phone is required">
+								<span class="label-input100">Teléfono:</span>
+								<input class="input100" type="text" name="phone" placeholder="Ingrese su teléfono" aria-label="Ingrese su teléfono">
+								<span class="focus-input100"></span>
+							</div>
+			
+							<div class="wrap-input100 validate-input" data-validate = "Message is required">
+								<span class="label-input100">Mensaje:</span>
+								<textarea class="input100" name="message" placeholder="Su mensaje..." aria-label="Ingrese el mensaje"></textarea>
+								<span class="focus-input100"></span>
+							</div>
+			
+							<div class="container-contact100-form-btn">
+								<button class="contact100-form-btn">
+									<span>Enviar mensaje</span>
+								</button>
+							</div>
+						</form>
+
+				</article>
+
+			</section>
+
+		</main>
+
+	</div>
+		
+	<footer class="footer flex f-center txt-center">
+		<p>Copyright © 2019 zeppelin. All rights reserved | Diseño y Desarrollo por</p>
+		<a href="https://dds.uy/" target="_blank" rel="noopener" aria-label="Sitio www.dds.uy">
+			<img src="/images/dds_logo.svg" alt="DDS logo" width="25px" style="margin-left: 5px;">
+		</a>
+	</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="js/card.js"></script>
+<script src="js/nav-scroll.js"></script>
+
+<script src="/__/firebase/7.5.0/firebase-app.js"></script>
+<script src="/__/firebase/7.5.0/firebase-analytics.js"></script>
+<script src="/__/firebase/init.js"></script>
+
+</body>
+</html>
